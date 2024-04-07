@@ -1,0 +1,157 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--slate);
+  background-color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* ---- header ---- */
+
+.nav-logo {
+  font-family: var(--second-family);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--iris);
+}
+
+.nav-logo-accent {
+  color: var(--navy-blue);
+}
+
+.menu-item-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: currentColor;
+}
+
+.menu-item-link:hover,
+.menu-item-link:focus {
+  color: var(--ocean);
+}
+
+.contact-info {
+  font-style: normal;
+}
+
+.contact-info .contact-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+  color: currentColor;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--ocean);
+}
+
+/* ---- main ---- */
+
+.hero {
+  background-color: var(--navy-blue);
+  color: var(--white);
+
+  height: 600px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+
+  color: var(--white);
+}
+
+.hero-button {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+
+  background-color: var(--iris);
+  color: var(--white);
+
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--ocean);
+}
+
+/* ---- benefits ---- */
+
+.benefits-item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2%;
+  letter-spacing: 0.02em;
+
+  color: var(--navy-blue);
+}
+
+.benefits-item-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ---- employees ---- */
+
+.employees {
+  background-color: var(--cloud);
+}
+
+.employees-item {
+  background: var(--white);
+}
+
+/* ---- portfolio ---- */
+
+/* footer */
+
+.footer {
+  background-color: var(--navy-blue);
+}
+.footer-info {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
