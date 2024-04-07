@@ -116,6 +116,16 @@ ul {
 
 /* ---- benefits ---- */
 
+.benefits-title {
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+
+  color: var(--navy-blue);
+}
+
 .benefits-item-title {
   font-weight: 500;
   font-size: 20px;
@@ -138,32 +148,29 @@ ul {
   background-color: var(--cloud);
 }
 
-.employees-title {
+.employees-list {
+  letter-spacing: 0.02em;
 }
 
-.employees-item {
+.employees-title {
   font-size: 36px;
-  line-height: 1.11%;
+  line-height: 1.11;
   text-align: center;
-  letter-spacing: 0.02em;
   text-transform: capitalize;
-
   color: var(--navy-blue);
-  background-color: var(--white);
 }
 
 .employees-item .item-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
 
   color: var(--navy-blue);
 }
 
 .employees-item .item-info {
   line-height: 1.5;
-  letter-spacing: 0.02em;
+
   color: var(--slate);
 }
 
@@ -174,6 +181,11 @@ ul {
 .footer {
   background-color: var(--navy-blue);
 }
+
+.footer-logo-accent {
+  color: var(--cloud);
+}
+
 .footer-info {
   line-height: 1.5;
   letter-spacing: 0.02em;
