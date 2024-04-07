@@ -83,8 +83,6 @@ ul {
 .hero {
   background-color: var(--navy-blue);
   color: var(--white);
-
-  height: 600px;
 }
 
 .hero-title {
@@ -158,8 +156,6 @@ ul {
 }
 
 .employees-item {
-  letter-spacing: 0.02em;
-
   background-color: var(--white);
 }
 
@@ -167,12 +163,14 @@ ul {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 
   color: var(--navy-blue);
 }
 
 .employees-item .item-info {
   line-height: 1.5;
+  letter-spacing: 0.02em;
 
   color: var(--slate);
 }
